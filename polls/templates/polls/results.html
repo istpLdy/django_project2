@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+{% extends 'base.html' %}
+{% block content %}
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -14,6 +16,6 @@
 
     <a href="{% url 'polls:detail' question.id %}">Vote again?</a>
     <a href="{% url 'polls:chart' question.id %}">Chart</a>
-
+{% endblock %}
 </body>
 </html>

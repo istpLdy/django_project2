@@ -14,6 +14,7 @@
 {% block content %}
 {{object.site_name}}<br/>
 {{object.url}}
+<a href="{% url 'bookmark:list' %}"><br><br>Back</a>
 {% endblock %}
 </body>
 </html>

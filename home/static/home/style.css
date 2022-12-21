@@ -1,15 +1,16 @@
 body {
-    background: white url("images/background.png") no-repeat;
+    background: white url("images/강릉_바다.png") no-repeat;
     background-position: center;
-    background-size: 10%;
+    background-size: 57.8%;
     height: 500px;
-    border-top: 10px solid #ccc;
 }
 
 title{
     color: #c80;
     font-weight: bold;
+    font-size: 12pt;
 }
 li a {
-    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
 }

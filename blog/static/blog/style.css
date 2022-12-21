@@ -1,14 +1,21 @@
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    margin-right: 5px;
+}
+
 h1 a {
     color: #FCA205;
-    font-family: 'Jua', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:30pt;
 }
 
 body {
-    padding-left: 15px;
+    padding-left: 0;
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #3B00DB;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -24,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Jua', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .date {
@@ -43,7 +50,8 @@ h1, h2, h3, h4 {
     color: #ffffff;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
 }
 
 .post {
@@ -52,4 +60,5 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+    font-family: 'Nanum Pen Script', cursive;
 }
